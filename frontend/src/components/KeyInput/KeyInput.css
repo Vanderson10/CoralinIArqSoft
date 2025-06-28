@@ -1,0 +1,52 @@
+.key-input-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8dcdc;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.key-input-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a44454;
+    border-radius: 5px;
+}
+
+.key-input-container button {
+    background-color: #a44454;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.key-input-container .error {
+    color: red;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+@media (max-width: 1130px) {
+    .key-input-container{
+        width: 60%;
+        margin-top: 30%
+    }
+}
+
+@media (max-width: 750px) {
+    .key-input-container {
+        width: 90%;
+        margin-top: 30%
+    }
+
+    .text {
+        font-size: 12px;
+    }
+}

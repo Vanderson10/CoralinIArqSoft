@@ -1,0 +1,21 @@
+.logo-header {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.logo-header img {
+  width: 25%;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .logo-header img {
+    width: 35%;
+    height: auto;
+  }
+  .logo-header {
+    position: absolute;
+    top: 15px;
+  }
+}

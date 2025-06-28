@@ -1,0 +1,19 @@
+.corals-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    max-height: 100%;
+}
+
+.coral {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 768px) {
+    .coral {
+        max-width: 100%;
+   }
+}

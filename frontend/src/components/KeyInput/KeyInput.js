@@ -16,7 +16,7 @@ const KeyInput = ({ onKeyValid }) => {
       setLoading(true);
       try {
         const response = await axios.post(
-          "http://35.215.254.172:9000/validate-key",
+          "http://localhost:8000/validate-key",
           { key }
         );
         if (response.data.valid) {
